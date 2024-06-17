@@ -1,0 +1,480 @@
+﻿body {    width: 1504px;
+    height: 663px;
+
+}
+
+.div_logo {
+    padding-top: 13vw;
+    padding-left: 23vw;
+    display: center;
+    justify-content: left;
+    height: 104px;
+    width: 207px;
+}
+.div_lblintern {
+    position: absolute;
+    padding-top: 11vw;
+    padding-left: 45vw;
+}
+.div_lbltaskhouse {
+    position: absolute;
+    padding-top: 15vw;
+    padding-left: 45vw;
+}
+.div_pnl_login {
+    position: absolute;
+    padding-top: 9vw;
+    padding-left: 25vw;
+    top: 252px;
+    left: 493px;
+    height: 406px;
+    width: 571px;
+   
+}
+
+.div_inside_stuLogin {
+    position: absolute;
+    padding-top: 7vw;
+    padding-left: 20vw;
+    top: 400px;
+    left: 672px;
+    height: 133px;
+    width: 114px;
+   
+}
+.txtbx_intern_username {
+    /* Adjust width as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 25px; /* Adjust border-radius to control the roundness of the edges */
+    outline: none; /* Remove default focus outline */
+}
+
+    /* Optional: Style for when the textbox is focused */
+    .txtbx_Username:focus {
+        border-color: #007bff; /* Change border color when focused */
+    }
+
+.div_ins_stuLogin {
+    position: absolute;
+    padding-top: 7vw;
+    padding-left: 20vw;
+    top: 5px;
+    left: 89px;
+    height: 81px;
+    width: 598px;
+
+  
+}
+.div_btn_intern_login {
+    position: absolute;
+    padding-top: 7vw;
+    padding-left: 20vw;
+    top: 538px;
+    left: 826px;
+    height: 75px;
+    width: 250px;
+}
+
+.btn_Intern_login {
+    transition: all .5s ease;
+    padding: 10px; /* Adjust padding as needed */
+    color: #003366;
+    border-radius: 30px; /* Adjust border-radius to control the roundness of the edges */
+    outline: none; /* Remove default focus outline */
+}
+    .btn_Intern_login:hover {
+        color: white;
+        background-color:darkorange;
+
+    }
+
+.div_Home_intern_Navbar {
+    position: absolute;
+   
+    height: 22%;
+    width: 100%;
+    margin-top: 8px;
+    top: -11px;
+    left: -2px;
+    right: -225px;
+}
+.Pnl_Home_intern_Navbar {
+    background-color: white;
+}
+.div_Home_intern_SideDashboard {
+    
+    height: 100%;
+    width: 408px;
+}
+.pnl_Home_intern_SideDashboard {
+    height: 100%;
+    border-right: 10px;
+    width: 537px;
+    border-radius: 50px;
+    
+}
+.body_intern {
+    background-color: #EEEEEE;
+   
+    width: 100%;
+    height:734px
+}
+.img_intern_prof_pic {
+    margin-left: 15px;
+    margin-top: 60px;
+    border-radius:50%;
+}
+.div_underline {
+    background-color: #FF920C;
+    position: absolute;
+    height: 11px;
+    width: 307px;
+    top: 219px;
+    left: 186px;
+    border-radius: 30px 0px 0px 30px;
+   
+}
+.lbl_intern_fullname {
+    position:absolute;
+}
+.lbl_intern_postion {
+    position: absolute;
+}
+.pnl_intern_homeView {
+    position: absolute;
+    top: 99px;
+    left: 504px;
+    height: 408%;
+    width: 79%;
+    margin-top: 0px;
+    background-color: #EEEEEE;
+}
+.pnl_announ_board {
+    border-radius: 25px;
+    position: absolute;
+    top: 14px;
+    left: 11px;
+    width: 846px;
+    height: 350px;
+}
+.img_ctu {
+    position: absolute;
+    top: 11px;
+    left: 527px;
+    height: 111px;
+    width: 115px;
+    opacity:0.5;
+    right: 489px;
+}
+.lbl_Ann_board {
+    position: absolute;
+    margin-bottom: 1px;
+    left: 679px;
+    top: 3px;
+    width: 656px;
+    font-size:50px;
+}
+.img_ctu1 {
+    position: absolute;
+    top: 10px;
+    left: 1310px;
+    height: 111px;
+    width: 115px;
+    opacity: 0.5;
+    right: -302px;
+}
+.pnl_line_annboard {
+    position: absolute;
+    height: 5px;
+}
+.lbl_under_annBoard {
+    position: absolute;
+    top: 82px;
+    left: 753px;
+    width: 553px;
+    margin-bottom: 0px;
+}
+.lbl_TheAnnoucement {
+    position: absolute;
+    top: 114px;
+    left: 621px;
+    height: 168px;
+    width: 500px;
+   
+    text-align:center;
+}
+.btn_intern_break {
+    position: absolute;
+    top: 270px;
+    left: 186px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #FF920C;
+    height: 30px;
+    width: 45px;
+}
+.btn_backtoWork {
+    position: absolute;
+    top: 270px;
+    left: 330px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #FF920C;
+}
+.img_buttom_right_logo {
+    position: absolute;
+    bottom: 1px;
+    right: -1px;
+    opacity: 0.5;
+    height: 470px;
+    width: 430px;
+}
+.lbl_Ann_text {
+    top: 150px;
+    position:absolute;
+    left: 900px;
+}
+.pnl_TimeClock {
+    position: absolute;
+    width: 1040px;
+    height: 670px;
+    top: 400px;
+    left: 15px;
+    font-family: 'Lucida Fax';
+}
+.lbl_TimeClock {
+    position: absolute;
+    font-family: 'Lucida Fax';
+    font-size:30px;
+    color: #003366;
+    top: 30px;
+    left: 350px;
+}
+.lbl_Curr_dayoftheWeek {
+    position: absolute;
+    font-family: 'Lucida Fax';
+    font-size: 40px;
+   
+    top: 79px;
+    left: 255px;
+}
+.lbl_Curr_time {
+    position: absolute;
+    font-family: 'Lucida Fax';
+    font-size: 80px;
+    color: #003366;
+    top: 110px;
+    left: 323px;
+}
+.txt_Intern_Task {
+    position: absolute;
+    border-radius: 15px;
+    top: 265px;
+    left: 160px;
+    height: 230px;
+    width: 744px;
+    align-items:center;
+    text-align:center;
+}
+.btn_Login {
+    position: absolute;
+    background-color: #003366;
+    border-radius: 15px;
+    font-family: 'Lucida Fax';
+    font-size: 35px;
+    top: 521px;
+    left: 161px;
+    height: 95px;
+    width: 360px;
+}
+.btn_logout {
+    position: absolute;
+    background-color: #003366;
+    border-radius: 15px;
+    font-family: 'Lucida Fax';
+    font-size: 35px;
+    top: 521px;
+    left: 550px;
+    height: 95px;
+    width: 360px;
+}
+
+.btn_Dashboard {
+    font-family: 'Lucida Fax';
+    font-size: 25px;
+    position: absolute;
+    color:white;
+    top: 410px;
+    left: 6px;
+    width: 470px;
+    height: 58px;
+    text-align:left;
+   background-color:transparent;
+ 
+}
+
+  
+.btn_home {
+    background-image: url('img/ctu_new_logo-removebg-preview.png');
+    border-radius: 50%;
+    position: absolute;
+    background-size:95%;
+    background-repeat:no-repeat;
+    height: 89px;
+    width: 101px;
+    right: 1302px;
+}
+.div_underline1 {
+    background-color: #FF920C;
+    position: absolute;
+    height: 11px;
+    width: 224px;
+    top: 470px;
+    left: 133px;
+    border-radius: 30px 30px 30px 30px;
+}
+.div_underline2 {
+    background-color: #FF920C;
+    border-radius: 30px 30px 30px 30px;
+    position: absolute;
+    height: 15px;
+    width: 579px;
+    top: 242px;
+    left: 423px;
+}
+.lbl_nav_intern {
+    position: absolute;
+}
+.LBL_NAV_TASk {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+}
+.btn_requests {
+    position: absolute;
+    top: 582px;
+    left: 10px;
+    height: 57px;
+    width: 475px;
+    width: 475px;
+}
+.pnlrequests {
+    position: absolute;
+    top: 99px;
+    left: 494px;
+    height: 415%;
+    width: 78%;
+    margin-top: 0px;
+    background-color: #EEEEEE;
+}
+.pnp_intern_request {
+    position: absolute;
+    top: 99px;
+    left: 494px;
+    height: 415%;
+    width: 79%;
+    margin-top: 0px;
+    background-color: #EEEEEE;
+}
+.btn_myAccount {
+    position: absolute;
+    top: 645px;
+    left: 8px;
+    height: 57px;
+    width: 461px;
+}
+.btn_myAtt {
+    background-image: url('img/calendar.png');
+    position: absolute;
+}
+.pnl_personal_profil {
+    position: absolute;
+    top: 99px;
+    left: 493px;
+    height: 90%;
+    width: 79%;
+    margin-top: 0px;
+    background-color: #eeeeee;
+    margin-left: 11px;
+}
+.img_intern_prof_pic_personal_Prof {
+    margin-left: 15px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 61px;
+    left: 80px;
+    height: 303px;
+    width: 289px;
+}
+.lbl_perPro_Name {
+    position: absolute;
+    font-size:45px;
+}
+.lbl_perPro_Name_form {
+    position: absolute;
+    font-size: 35px;
+}
+.div_underline4 {
+    background-color: green;
+    border-radius: 30px 30px 30px 30px;
+    position: absolute;
+    top: 422px;
+    left: 435px;
+    width: 10px;
+    height: 496px;
+}
+.pnl_request {
+    position: absolute;
+    top: 99px;
+    left: 493px;
+    height: 90%;
+    width: 79%;
+    margin-top: 0px;
+    background-color: #eeeeee;
+    margin-left: 11px;
+}
+.lbl_panel {
+    position: absolute;
+}
+.btn_log_out {
+   left:95%;
+    background-image: url('img/logout_icon.png');
+    position:absolute;
+    top:25px;
+   
+}
+.Grid_myatt_DB {
+    top:40px;
+    right:20px;
+
+}
+.pnl_header {
+    overflow: hidden;
+    padding: 20px 10px;
+    width:98%;
+    position:fixed;
+}
+.pnl_sidenav_admin {
+    left: 15px;
+    top: 11%;
+    height: 88%;
+    width: 25%;
+    background-color: #378b29;
+    background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+    position: absolute;
+    border-radius: 25px;
+    position: fixed;
+}
+.img_profile {
+    height: 100px;
+    width: 100px;
+    top: 15%;
+    left: 50px;
+    position: fixed;
+    border-radius: 50px; 
+}
+.img_admin_logout {
+    height: 50px;
+    width: 50px;
+    right:15px;
+}

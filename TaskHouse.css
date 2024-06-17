@@ -1,0 +1,28 @@
+﻿.body {
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:red;
+}
+.pnl_TH_nav {
+    background: linear-gradient(109.6deg, rgb(0, 204, 130) 11.2%, rgb(58, 181, 46) 91.7%);
+    position: fixed;
+    top: 0;
+    left: -10px;
+    height: 88px;
+}
+.pnl_TH_Footer {
+    background: linear-gradient(109.6deg, rgb(0, 204, 130) 11.2%, rgb(58, 181, 46) 91.7%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+.pnl_TH_home {
+    position: absolute;
+    top: 96px;
+    left: 1px;
+    height: 95%;
+}
+    
+    
